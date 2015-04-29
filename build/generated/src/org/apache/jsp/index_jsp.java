@@ -50,9 +50,22 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
       out.write("        <title>JSP Page</title>\n");
       out.write("    </head>\n");
-      out.write("    <body>\n");
+      out.write("    <body stlye=\"background-color:fuchsia;\">\n");
       out.write("        <h1>John Leeroy A. Gadiane</h1>\n");
-      out.write("        <h2></h2>\n");
+      out.write("        <h2>BSCS - 3</h2>\n");
+      out.write("        <h2>USJ-R</h2>\n");
+      out.write("        <h2>About Myself:</h2>\n");
+      out.write("        <h3 style=\"margin-left: 30px;\">I am a student taking up Bachelor of Science in Computer Science. I am also a house representative of the USJ-R Supreme\n");
+      out.write("        Student Council.</h3>\n");
+      out.write("        <h2>What I know about OOP:</h2>\n");
+      out.write("        <h3 style=\"margin-left: 30px;\">OOP from the name itself uses objects. I have only experience OOP in Java. \n");
+      out.write("        OOP is a programming language model organized around objects rather than \"actions\" and data rather than logic.</h3>\n");
+      out.write("        <h2>What are my expectations:</h2>\n");
+      out.write("        <ul>\n");
+      out.write("            <li><h3>To learn more about J2EE</h3></li>\n");
+      out.write("            <li><h3>To be able to apply my learnings in J2EE</h3></li>\n");
+      out.write("            <li><h3>To successfully comply all the requirements given by Alliance</h3></li>\n");
+      out.write("        </ul>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
